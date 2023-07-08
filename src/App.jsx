@@ -8,27 +8,29 @@ import {
   Hero,
   Navbar,
   Tech,
-  Works,
+  Projects,
   StarsCanvas,
+  Footer,
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-[#0A0A0A]'>
-        <div className='bg-hero-patter bg-cover bg-no-repeat bg-center'>
-          <Navbar />
+      <div className='relative z-0 bg-primary'>
+        <div className='relative z-20  bg-cover bg-no-repeat bg-center'>
+          <div className='relative z-40'>
+            <Navbar />
+          </div>
           <Hero />
-        </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className='relative z-0'>
+          <About />
+          <Tech />
+          <Experience />
+          <Projects />
+          {/* <Feedbacks /> */}
           <Contact />
-          <StarsCanvas />
         </div>
+        <StarsCanvas />
+        {/* <Footer/> */}
       </div>
     </BrowserRouter>
   );

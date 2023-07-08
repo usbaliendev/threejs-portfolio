@@ -1,6 +1,4 @@
 /* eslint-disable react/no-unknown-property */
-/* eslint-disable react/prop-types */
-/* eslint-disable-next-line react/prop-types */
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
@@ -21,8 +19,7 @@ const Ball = (props) => {
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
-        {/* <icosahedronGeometry args={[1, 1]} /> */}
-        <sphereGeometry args={[1, 50, 50]} />
+        <sphereGeometry args={[1, 20, 20]} />
         <meshStandardMaterial
           color='#ffffff'
           polygonOffset

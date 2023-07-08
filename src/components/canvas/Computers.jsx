@@ -3,6 +3,8 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
+import * as THREE from "three";
+
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
@@ -31,29 +33,6 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    // Cria um listener pras mudancas de tamanho da tela
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-
-    // Seta o valor inicial da variavel `isMobile`
-    setIsMobile(mediaQuery.matches);
-
-    // Define uma func callback pra mudancas ao media query
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-
-    // Cria func callback como um listener para mudancas ao media query
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
-    // Remove o listener quando o componente for desmontado
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
-
   return (
     <Canvas
       frameloop='demand'

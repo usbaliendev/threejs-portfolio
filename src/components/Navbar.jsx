@@ -29,8 +29,8 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-[#030303]" : "bg-transparent"
+      } w-full flex items-center py-5 fixed top-0 z-20 border-b border-[#fafafa50] shadow-[0_4px_30px_rgba(250, 250, 250, 0)] backdrop-blur-[10px] ${
+        scrolled ? "bg-[#fafafa00]" : "bg-[#fafafa00]"
       }`}>
       <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
         <Link
@@ -40,12 +40,9 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}>
-          {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <img src={codingLogo} alt='logo' className='w-9 h-9 object-contain' />
-          {/* <p className='animate-text bg-gradient-to-r from-[#0c73e9] via-[#08CC92] to-[#C905FF] bg-clip-text text-transparent text-[18px] font-bold cursor-pointer flex'> */}
-          <p className='animate-text bg-gradient-to-r from-[#0c73e9] via-[#08CC92] to-[#C905FF] bg-clip-text text-transparent text-[18px] font-bold cursor-pointer flex'>
-            Angelo &nbsp;
-            <span className='sm:block hidden'>| Fullstack Dev</span>
+          <p className='animate-text bg-gradient-to-r from-[#00f2ff] via-[#168bf6] to-[#264aff] bg-clip-text text-transparent text-[18px] font-bold cursor-pointer flex'>
+            usbalien.dev
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

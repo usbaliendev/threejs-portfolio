@@ -14,8 +14,8 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
-      background: "#0D0D0D",
-      color: "#0c73e9",
+      background: "#181818",
+      color: "#00f2ff",
     }}
     contentArrowStyle={{ borderRight: "7px solid  #0D0D0D" }}
     date={experience.date}
@@ -30,8 +30,7 @@ const ExperienceCard = ({ experience }) => (
       </div>
     }>
     <div>
-      {/* <h3 className='text-[#0c73e9] text-[24px] font-bold'> */}
-      <h3 className='animate-text bg-gradient-to-r from-[#08CC92] via-[#0c73e9] to-[#C905FF] bg-clip-text text-transparent text-[24px] font-bold'>
+      <h3 className='animate-text bg-gradient-to-r from-[#00f2ff] via-[#168bf6] to-[#264aff] bg-clip-text text-transparent text-[24px] font-bold'>
         {experience.title}
       </h3>
       <p

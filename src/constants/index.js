@@ -1,7 +1,8 @@
 import {
   mobile,
   backend,
-  creator,
+  ctech,
+  cytgmr,
   design,
   web,
   javascript,
@@ -13,20 +14,14 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  firebase,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
   cleversys,
   cyonm,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  freelancer,
   threejs,
+  jobit,
+  pokemoncards,
 } from "../assets";
 
 export const navLinks = [
@@ -35,7 +30,7 @@ export const navLinks = [
     title: "Sobre",
   },
   {
-    id: "proj",
+    id: "projects",
     title: "Projetos",
   },
   {
@@ -58,12 +53,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Criador de Conteúdo",
-    icon: creator,
-  },
-  {
     title: "Designer Criativo",
     icon: design,
+  },
+  {
+    title: "Criador de Conteúdo Tech",
+    icon: ctech,
+  },
+  {
+    title: "Youtuber Gamer",
+    icon: cytgmr,
   },
 ];
 
@@ -103,10 +102,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
   },
   {
     name: "Three JS",
@@ -162,19 +157,18 @@ const experiences = [
       "Aplicação de metologia ágil no fluxo do projeto usando tecnicas de Scrum em reuniões semanais e diárias.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Dev React e Designer",
+    company_name: "Freelancer",
+    icon: freelancer,
+    iconBg: "#E6DEDD",
+    date: "Mai 2022 - Atual",
+    points: [
+      "Desenvolvimento de web applicações usando React.js e outras tecnologias relacionadas. ",
+      "Criando app designs, site designs e design branding de projetos de contratantes, buscando modernidade, elegancia e responsividade.",
+      "Constantemente estudando novas tecnologias e praticando para aumentar meu leque de conhecimentos.",
+    ],
+  },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -203,6 +197,22 @@ const experiences = [
   // },
 ];
 
+const formacaoacad = [
+  {
+    title: "React.js Developer",
+    company_name: "Clever Systems LTDA",
+    icon: cleversys,
+    iconBg: "#FAFAFA",
+    date: "Jul 2021 - Mai 2022",
+    points: [
+      "Desenvolvimento e manutenção de web applicações usando React.js e outras tecnologias relacionadas.",
+      "Colaboração com um time incluindo designer, product manager e desenvolvedor banck-end na criação de soluções para midia indoor, totems de atendimento e sistema de chamadas.",
+      "Implementando design responsivo, usando biblioteca MaterialUI focando especialmente na orientação mobile first.",
+      "Aplicação de metologia ágil no fluxo de trabalho na empresa, usando tecnicas de Scrum e framework Click-Up.",
+    ],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -226,7 +236,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuserdescsrc_link.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -237,7 +247,7 @@ const projects = [
     tags: [
       {
         name: "javascript",
-        color: "yellow-text-gradient",
+        color: "js-text-gradient",
       },
       {
         name: "telegram",
@@ -250,8 +260,74 @@ const projects = [
     proj_link: "https://telegram.me/CovidDFBot",
   },
   {
-    name: "Job IT",
-    desc: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Kayden7 Channel Branding Design",
+    desc: "Identidade visual e branding do canal de Youtube e Twitch",
+    tags: [
+      {
+        name: "figma",
+        color: "figma-text-gradient",
+      },
+      {
+        name: "dribble",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://user-images.githubusercontent.com/50382278/151048953-b32bbf27-36f0-462c-a7e0-8445591149d0.png",
+    src_link: "",
+    proj_link: "https://dribbble.com/shots/15713225-Icon-Study-2",
+  },
+  {
+    name: "Particles ThreeJS",
+    desc: "Projeto de Three.js como background de uma página HTML clássica com rolagem mais envolvente com efeito paralaxe baseado na posição do cursor acione algumas animações ao chegar nas seções correspondentes.",
+    tags: [
+      {
+        name: "javasctript",
+        color: "js-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "red-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "grey-text-gradient",
+      },
+    ],
+    image:
+      "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2022/01/ScrollbasedGSAP.jpg?x13270",
+    src_link: "",
+    proj_link:
+      "https://threejs-journey.com/resources/codrops/threejs-scroll-based-animation/",
+  },
+  {
+    name: "Pokemon Card, Holo Effect",
+    desc: "Uma coleção de estilos CSS avançados para criar efeitos realistas para os rostos das cartas Pokémon. Os cartões usam transformações 3D, filtros, modos de mesclagem, gradientes CSS e interações para proporcionar uma experiência única ao olhar mais de perto!",
+    tags: [
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "svelte",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shell",
+        color: "js-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "js-text-gradient",
+      },
+    ],
+    image: pokemoncards,
+    src_link: "",
+    proj_link: "https://codepen.io/simeydotme/pen/PrQKgo",
+  },
+  {
+    name: "Animated Mesh Lines",
+    desc: "Um conjunto de cinco demos com linhas WebGL animadas criadas com a biblioteca THREE.MeshLine. Descubra como animar e construir essas linhas para criar suas próprias animações",
     tags: [
       {
         name: "react",
@@ -266,31 +342,39 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    src_link: "https://github.com/",
-    proj_link: "",
+    image:
+      "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2018/12/preview3.gif?x13270",
+    src_link: "",
+    proj_link: "https://tympanus.net/Development/AnimatedMeshLines/",
   },
-  {
-    name: "Trip Guide",
-    desc: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    src_link: "https://github.com/",
-    proj_link: "",
-  },
+  // {
+  //   name: "Job IT",
+  //   desc: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ,
+  //   src_link: "https://github.com/",
+  //   proj_link: "",
+  // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  formacaoacad,
+  testimonials,
+  projects,
+};
