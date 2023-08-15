@@ -1,6 +1,6 @@
 # Meu Website Portfolio 3D com Three.js e React.js
 
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+![PreviewSite](./Screenshot_1.png)
 
 ##Feito com as seguintes tecnologias:
 
