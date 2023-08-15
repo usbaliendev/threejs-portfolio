@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 /* eslint-env node */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: [
+    "'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'",
+    "./src/**/*.{js,jsx}",
+  ],
   mode: "jit",
   theme: {
     extend: {
@@ -21,7 +24,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herogb1.jpg')",
+        "hero-pattern": "url('/src/assets/herobgcristals2.png')",
       },
       animation: {
         text: "text 5s ease infinite",
@@ -62,5 +65,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

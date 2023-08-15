@@ -15,17 +15,19 @@ const Hero = () => {
 
         <div className='text-center'>
           <h1
-            className={`${styles.heroHeadText} flex justify-center text-white  `}>
+            className={`${styles.heroHeadText} flex justify-center text-white`}>
             Olá Mundo
             <span className='animate-waving-hand'>👋</span>,
           </h1>
-          <h1 className={`${styles.heroHeadText} text-white  `}>
+          <h1 className={`${styles.heroHeadText} text-white`}>
             Eu Sou{" "}
-            <span className='font-black animate-twatterfall bg-gradient-to-b from-[#00f2ff] via-[#168bf6] to-[#264aff] bg-clip-text text-transparent '>
+            {/* <span className='font-black animate-text bg-gradient-to-r from-[#83293e] via-[#c2b774] to-[#264aff] bg-clip-text text-transparent drop-shadow-[0_0_2px_#000]'> */}
+            <span className='font-black animate-text bg-gradient-to-r from-[#44b778] via-[#36eae3] to-[#a1c0e6] bg-clip-text text-transparent drop-shadow-lg'>
               Angelo
             </span>
           </h1>
-          <p className={`${styles.heroSubText} text-justify mt-5`}>
+          <p
+            className={`${styles.heroSubText} text-justify mt-28 drop-shadow-[0_0_2px_#000]`}>
             Sou desenvolvedor fullstack, mais chegado com o front-end e
             criatividades, crio interfaces de usuário, aplicações web, 3D
             assets. Adoro arte, estudar filosofias e sou um geek e gamer nas

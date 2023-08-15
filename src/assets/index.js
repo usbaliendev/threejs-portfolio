@@ -9,6 +9,7 @@ import github from "./github.png";
 import linkgif from "./link.gif";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import estrela from "./estrela.gif";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +21,7 @@ import firebase from "./tech/firebase.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import angular from "./tech/angular.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -37,6 +39,7 @@ import carrent from "./carrent.png";
 import pokemoncards from "./pokemoncards.gif";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import greekstatue from "./statue-aesthetics.png";
 
 export {
   codingLogo,
@@ -50,6 +53,7 @@ export {
   linkgif,
   menu,
   close,
+  estrela,
   css,
   docker,
   figma,
@@ -60,6 +64,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  angular,
   redux,
   tailwind,
   typescript,
@@ -71,4 +76,5 @@ export {
   pokemoncards,
   jobit,
   tripguide,
+  greekstatue,
 };

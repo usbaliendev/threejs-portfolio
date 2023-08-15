@@ -59,20 +59,38 @@
 }
 
 .glitch-gradient {
-  background: "#0C73E9";
+  background: "#b6505d";
   background: linear-gradient(
     90.13deg,
-    #5cd1ff 0%,
-    #08cc92 25%,
+    #b6505d 0%,
+    #f7d855 25%,
     #0c73e9 50%,
-    #c905ff 75%
+    #c95df8 75%
   );
   background: -webkit-linear-gradient(
     -90.13deg,
-    #5cd1ff 0%,
-    #08cc92 25%,
+    #b6505d 0%,
+    #f7d855 25%,
     #0c73e9 50%,
-    #c905ff 75%
+    #c95df8 75%
+  );
+}
+
+.cristal-gradient {
+  background: "#3cebe5";
+  background: linear-gradient(
+    90.13deg,
+    #3cebe5 0%,
+    #72bc8e 25%,
+    #f9a789 50%,
+    #c95df8 75%
+  );
+  background: -webkit-linear-gradient(
+    -90.13deg,
+    #3cebe5 0%,
+    #72bc8e 25%,
+    #f9a789 50%,
+    #c95df8 75%
   );
 }
 

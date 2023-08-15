@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
+import { estrela } from "../assets";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -14,11 +15,12 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
-      background: "#181818",
-      color: "#00f2ff",
+      background: "rgba(0,0,0,0.75)",
+      backdropFilter: "blur(2.5px)",
     }}
     contentArrowStyle={{ borderRight: "7px solid  #0D0D0D" }}
     date={experience.date}
+    dateClassName='font-black animate-text bg-gradient-to-r from-[#4bd096] via-[#f7d855] to-[#fafafa] bg-clip-text text-transparent drop-shadow-[0_0_1px_#000]'
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className='flex justify-center items-center w-full h-full'>
@@ -30,7 +32,7 @@ const ExperienceCard = ({ experience }) => (
       </div>
     }>
     <div>
-      <h3 className='animate-text bg-gradient-to-r from-[#00f2ff] via-[#168bf6] to-[#264aff] bg-clip-text text-transparent text-[24px] font-bold'>
+      <h3 className='animate-text bg-gradient-to-r from-[#067ad9] via-[#c2b774] to-[#52df71] bg-clip-text text-transparent text-[24px] font-bold'>
         {experience.title}
       </h3>
       <p
@@ -40,15 +42,17 @@ const ExperienceCard = ({ experience }) => (
       </p>
     </div>
 
-    <ul className='mt-5 list-disc ml-5 space-y-2'>
-      {experience.points.map((point, index) => (
-        <li
-          key={`experience-point-${index}`}
-          className='text-white-100 text-[14px] pl-1 tracking-wider text-justify'>
-          {point}
-        </li>
-      ))}
-    </ul>
+    {experience.points && (
+      <ul className='mt-5 list-disc ml-5 space-y-2'>
+        {experience.points.map((point, index) => (
+          <li
+            key={`experience-point-${index}`}
+            className='text-white-100 text-[14px] pl-1 tracking-wider text-justify'>
+            {point}
+          </li>
+        ))}
+      </ul>
+    )}
   </VerticalTimelineElement>
 );
 
@@ -72,6 +76,14 @@ const Experience = () => {
               experience={experience}
             />
           ))}
+          <VerticalTimelineElement
+            iconStyle={{ background: "#fafafa", color: "#fafafa" }}
+            icon={
+              <div className='flex justify-center items-center w-full h-full'>
+                <img src={estrela} className='w-[60%] h-[60%] object-contain' />
+              </div>
+            }
+          />
         </VerticalTimeline>
       </div>
     </>

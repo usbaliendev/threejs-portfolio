@@ -11,26 +11,29 @@ import {
   Projects,
   StarsCanvas,
   Footer,
+  ScrollToTop,
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className='relative z-20  bg-cover bg-no-repeat bg-center'>
-          <div className='relative z-40'>
-            <Navbar />
-          </div>
+        <div className='bg-hero-pattern bg-cover bg-center bg-no-repeat'>
+          <Navbar />
+          <ScrollToTop />
           <Hero />
           <About />
           <Tech />
           <Experience />
           <Projects />
           {/* <Feedbacks /> */}
-          <Contact />
+          <div className='relative z-0'>
+            <Contact />
+            <StarsCanvas />
+          </div>
+
+          <Footer />
         </div>
-        <StarsCanvas />
-        {/* <Footer/> */}
       </div>
     </BrowserRouter>
   );

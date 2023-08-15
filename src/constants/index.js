@@ -10,6 +10,7 @@ import {
   html,
   css,
   reactjs,
+  angular,
   redux,
   tailwind,
   nodejs,
@@ -22,6 +23,7 @@ import {
   threejs,
   jobit,
   pokemoncards,
+  estrela,
 } from "../assets";
 
 export const navLinks = [
@@ -88,6 +90,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -122,7 +128,7 @@ const experiences = [
     title: "React.js Developer",
     company_name: "Clever Systems LTDA",
     icon: cleversys,
-    iconBg: "#FAFAFA",
+    iconBg: "#fafafa",
     date: "Jul 2021 - Mai 2022",
     points: [
       "Desenvolvimento e manutenção de web applicações usando React.js e outras tecnologias relacionadas.",
@@ -135,7 +141,7 @@ const experiences = [
     title: "Projeto Acadêmico React.js",
     company_name: "Clever Systems LTDA",
     icon: cleversys,
-    iconBg: "#FAFAFA",
+    iconBg: "#fafafa",
     date: "Jan 2022 - Jun 2022",
     points: [
       "Desenvolvimento e manutenção de web applicações usando React.js e outras tecnologias relacionadas.",
@@ -148,7 +154,7 @@ const experiences = [
     title: "Projeto Acadêmico C#",
     company_name: "Cyonm Informatica",
     icon: cyonm,
-    iconBg: "#FAFAFA",
+    iconBg: "#fafafa",
     date: "Ago 2022 - Dez 2022",
     points: [
       "Desenvolvimento e manutenção de uma aplicação Windows form em C#, com Web API e SQL Server.",
@@ -161,8 +167,8 @@ const experiences = [
     title: "Dev React e Designer",
     company_name: "Freelancer",
     icon: freelancer,
-    iconBg: "#E6DEDD",
-    date: "Mai 2022 - Atual",
+    iconBg: "#fafafa",
+    date: "Mai 2022 - Agora",
     points: [
       "Desenvolvimento de web applicações usando React.js e outras tecnologias relacionadas. ",
       "Criando app designs, site designs e design branding de projetos de contratantes, buscando modernidade, elegancia e responsividade.",
@@ -277,8 +283,30 @@ const projects = [
     src_link: "",
     proj_link: "https://dribbble.com/shots/15713225-Icon-Study-2",
   },
+  // {
+  //   name: "Animated Mesh Lines",
+  //   desc: "Um conjunto de cinco demos com linhas WebGL animadas criadas com a biblioteca THREE.MeshLine. Descubra como animar e construir essas linhas para criar suas próprias animações",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image:
+  //     "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2018/12/preview3.gif?x13270",
+  //   src_link: "",
+  //   proj_link: "https://tympanus.net/Development/AnimatedMeshLines/",
+  // },
   {
-    name: "Particles ThreeJS",
+    name: "Scroling Porfolio",
     desc: "Projeto de Three.js como background de uma página HTML clássica com rolagem mais envolvente com efeito paralaxe baseado na posição do cursor acione algumas animações ao chegar nas seções correspondentes.",
     tags: [
       {
@@ -300,53 +328,31 @@ const projects = [
     proj_link:
       "https://threejs-journey.com/resources/codrops/threejs-scroll-based-animation/",
   },
-  {
-    name: "Pokemon Card, Holo Effect",
-    desc: "Uma coleção de estilos CSS avançados para criar efeitos realistas para os rostos das cartas Pokémon. Os cartões usam transformações 3D, filtros, modos de mesclagem, gradientes CSS e interações para proporcionar uma experiência única ao olhar mais de perto!",
-    tags: [
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "svelte",
-        color: "green-text-gradient",
-      },
-      {
-        name: "shell",
-        color: "js-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "js-text-gradient",
-      },
-    ],
-    image: pokemoncards,
-    src_link: "",
-    proj_link: "https://codepen.io/simeydotme/pen/PrQKgo",
-  },
-  {
-    name: "Animated Mesh Lines",
-    desc: "Um conjunto de cinco demos com linhas WebGL animadas criadas com a biblioteca THREE.MeshLine. Descubra como animar e construir essas linhas para criar suas próprias animações",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image:
-      "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2018/12/preview3.gif?x13270",
-    src_link: "",
-    proj_link: "https://tympanus.net/Development/AnimatedMeshLines/",
-  },
+  // {
+  //   name: "Pokemon Card, Holo Effect",
+  //   desc: "Uma coleção de estilos CSS avançados para criar efeitos realistas para os rostos das cartas Pokémon. Os cartões usam transformações 3D, filtros, modos de mesclagem, gradientes CSS e interações para proporcionar uma experiência única ao olhar mais de perto!",
+  //   tags: [
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "svelte",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "shell",
+  //       color: "js-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "js-text-gradient",
+  //     },
+  //   ],
+  //   image: pokemoncards,
+  //   src_link: "",
+  //   proj_link: "https://codepen.io/simeydotme/pen/PrQKgo",
+  // },
   // {
   //   name: "Job IT",
   //   desc: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
