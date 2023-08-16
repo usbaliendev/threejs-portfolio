@@ -46,21 +46,27 @@ const About = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-secondary drop-shadow-[1px_1px_0px_#000] text-[17px] max-2-3xl leading-[30px] text-justify'>
-          Sou um desenvolvedor front-end, aplicado e apaixonado por arte e
-          design e games. Tenho experiência como desenvolvedor front-end
-          especialmento com o framework React, TypeScript , JavaScript e NodeJS
-          estudando agora NextJS. Já trabalhei em outras áreas, como
-          contabilidade, operador de sistemas, designer e tenho alguns projetos
-          pessoais pequenos de prática, sempre em busca de cada vez mais
-          qualificação e certificados. Sou proficiente, aprendo rápido e sou
-          autodidata em muitos conhecimentos, como por exemplo aprendi Ingles e
-          cheguei no nivel C2 de proeficiência sozinho. Consigo me autogerenciar
-          efetivamente durante projetos independentes, bem como colaborar como
-          parte de uma equipe produtiva e clientes para criar soluções
-          eficientes, bonitas e fáceis de usar que resolvem problemas do mundo
-          real. Vamos trabalhar juntos para dar vida às suas ideias ou me
-          contrate para seu time!
+          className='text-secondary drop-shadow-[1px_1px_0px_#000] text-[17px] max-2-3xl leading-[30px] text-center'>
+          Tenho experiência como desenvolvedor front-end especialmento com o
+          framework React, TypeScript, JavaScript e NodeJS estudando agora
+          NextJS. Já trabalhei em outras áreas, como contabilidade, operador de
+          sistemas, designer e tenho alguns projetos pessoais pequenos de
+          prática, sempre em busca de cada vez mais qualificação e certificados.
+          <br />
+          <br />
+          Sou proficiente, aprendo rápido e sou autodidata em muitos
+          conhecimentos, como por exemplo tenho fluência em Ingles (nível C2 de
+          proeficiência) sozinho.
+          <br />
+          <br />
+          Consigo me autogerenciar efetivamente durante projetos independentes,
+          bem como colaborar como parte de uma equipe produtiva para criar
+          soluções eficientes, bonitas e fáceis de usar que resolvem problemas
+          do mundo real.
+          <br />
+          <br />
+          Vamos trabalhar juntos para dar vida às suas ideias ou me contrate
+          para seu time!
         </motion.p>
       </div>
 

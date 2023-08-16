@@ -8,7 +8,7 @@ const styles = {
   heroSubText:
     "text-[#fafafa] font-medium sm:text-[26px] lg:text-[30px] xs:text-[20px] text-[16px] lg:leading-[40px] drop-shadow-[0_0_2px_#000]",
   sectionHeadText:
-    "font-black text-white sm:text-[50px] md:text-[60px] xs:text-[40px] text-[30px] drop-shadow-[0_0_2px_#000]",
+    "mb-16 font-black text-white sm:text-[50px] md:text-[60px] xs:text-[40px] text-[30px] drop-shadow-[0_0_2px_#000]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider animate-text bg-gradient-to-r from-[#264AFF] via-[#168BF6] to-[#00F2FF] bg-clip-text text-transparent drop-shadow-[0_0_2px_#000]",
 };

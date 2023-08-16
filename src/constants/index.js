@@ -21,9 +21,6 @@ import {
   cyonm,
   freelancer,
   threejs,
-  jobit,
-  pokemoncards,
-  estrela,
 } from "../assets";
 
 export const navLinks = [

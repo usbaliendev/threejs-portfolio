@@ -24,7 +24,8 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobgcristals2.png')",
+        // "hero-pattern": "url('/src/assets/bgcristals.jpg')",
+        "hero-pattern": "url('/src/assets/bgcristals1.jpg')",
       },
       animation: {
         text: "text 5s ease infinite",

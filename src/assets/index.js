@@ -37,8 +37,6 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import pokemoncards from "./pokemoncards.gif";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import greekstatue from "./statue-aesthetics.png";
 
 export {
@@ -74,7 +72,5 @@ export {
   freelancer,
   carrent,
   pokemoncards,
-  jobit,
-  tripguide,
   greekstatue,
 };

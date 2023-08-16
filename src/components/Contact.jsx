@@ -111,12 +111,13 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
-          <button
-            type='submit'
-            className='bg-accent py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-center'>
-            {loading ? "Enviando..." : "Enviar"}
-          </button>
+          <div>
+            <button
+              type='submit'
+              className='bg-accent py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-center items-center'>
+              {loading ? "Enviando..." : "Enviar"}
+            </button>
+          </div>
         </form>
       </motion.div>
 
