@@ -5,12 +5,12 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className='relative  w-full h-screen mx-auto'>
+    <section className='relative w-full h-screen mx-auto'>
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[150px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+        className={`${styles.paddingX} absolute inset-0 top-[125px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#00f2ff]' />
-          <div className='w-1 sm:h-80 h-40 bg-gradient-to-b blue-gradient to-[#000000]' />
+          <div className='w-1 sm:h-[26rem] h-96 bg-gradient-to-b blue-gradient to-[#000000]' />
         </div>
 
         <div className='text-center'>
@@ -21,7 +21,6 @@ const Hero = () => {
           </h1>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Eu Sou{" "}
-            {/* <span className='font-black animate-text bg-gradient-to-r from-[#83293e] via-[#c2b774] to-[#264aff] bg-clip-text text-transparent drop-shadow-[0_0_2px_#000]'> */}
             <span className='font-black animate-text bg-gradient-to-r from-[#44b778] via-[#36eae3] to-[#a1c0e6] bg-clip-text text-transparent drop-shadow-lg'>
               Angelo
             </span>
@@ -36,7 +35,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='absolute xs:bottom- bottom-40 w-full flex justify-center items-center'>
+      {/* <ComputersCanvas /> */}
+
+      <div className='absolute xs:bottom-20 bottom-20 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-content items-start p-2'>
             <motion.div

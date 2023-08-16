@@ -40,7 +40,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img src={codingLogo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='animate-text bg-gradient-to-r from-[#00f2ff] via-[#168bf6] to-[#264aff] bg-clip-text text-transparent text-[18px] font-bold cursor-pointer flex'>
+          <p className='text-[#168bf6] text-[18px] font-bold cursor-pointer flex'>
             usbalien.dev
           </p>
         </Link>
