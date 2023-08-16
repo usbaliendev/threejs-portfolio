@@ -1,6 +1,6 @@
 import {
   EarthCanvas,
-  BallCanvas,
+  TechCircles,
   ComputersCanvas,
   StarsCanvas,
 } from "./canvas";
@@ -25,7 +25,7 @@ export {
   Feedbacks,
   Contact,
   EarthCanvas,
-  BallCanvas,
+  TechCircles,
   ComputersCanvas,
   StarsCanvas,
   ScrollToTop,

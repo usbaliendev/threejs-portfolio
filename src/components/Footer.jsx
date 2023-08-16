@@ -66,8 +66,8 @@ export default function FooterWithSocialMediaIcons() {
 
         <div className='grid w-full justify-evenly items-center sm:flex sm:justify-between md:flex md:grid-cols-1 text-white'>
           <Footer.Copyright
-            className='text-white drop-shadow-[0_0_2px_#000]'
-            by='usbalien.dev'
+            className='text-white text-center drop-shadow-[0_0_2px_#000]'
+            by='usbalien.dev. Todos os diretos reservados'
             href='#'
             year={2023}
           />
