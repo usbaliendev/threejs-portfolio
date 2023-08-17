@@ -20,7 +20,17 @@ import {
   cleversys,
   cyonm,
   freelancer,
+  rocketseat,
+  campusparty,
+  origamid,
+  groupico,
+  ajsisni,
   threejs,
+  marcaceub,
+  mortarboard,
+  codeicon,
+  courseico,
+  estrela,
 } from "../assets";
 
 export const navLinks = [
@@ -122,8 +132,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Histórico Acadêmico",
+    icon: mortarboard,
+    iconBg: "#fafafa",
+  },
+  {
+    title: "Bacharel em Ciências da Computação",
+    subtitle: "Centro Universitário de Brasília - UniCEUB Campus Taguatinga",
+    icon: marcaceub,
+    iconBg: "#FAFAFA",
+    date: "Ago 2018 - Dez 2022",
+  },
+  {
+    title: "Experiências Profissionais",
+    icon: codeicon,
+    iconBg: "#fafafa",
+  },
+  {
     title: "React.js Developer",
-    company_name: "Clever Systems LTDA",
+    subtitle: "Clever Systems LTDA",
     icon: cleversys,
     iconBg: "#fafafa",
     date: "Jul 2021 - Mai 2022",
@@ -136,7 +163,7 @@ const experiences = [
   },
   {
     title: "Projeto Acadêmico React.js",
-    company_name: "Clever Systems LTDA",
+    subtitle: "Clever Systems LTDA",
     icon: cleversys,
     iconBg: "#fafafa",
     date: "Jan 2022 - Jun 2022",
@@ -149,7 +176,7 @@ const experiences = [
   },
   {
     title: "Projeto Acadêmico C#",
-    company_name: "Cyonm Informatica",
+    subtitle: "Cyonm Informatica",
     icon: cyonm,
     iconBg: "#fafafa",
     date: "Ago 2022 - Dez 2022",
@@ -162,7 +189,7 @@ const experiences = [
   },
   {
     title: "Dev React e Designer",
-    company_name: "Freelancer",
+    subtitle: "Freelancer",
     icon: freelancer,
     iconBg: "#fafafa",
     date: "Mai 2022 - Agora",
@@ -173,21 +200,17 @@ const experiences = [
     ],
   },
   // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
+  //   icon: estrela,
+  //   iconBg: "#fafafa",
+  // },
+  // {
+  //   title: "Extracurriculares",
+  //   icon: courseico,
+  //   iconBg: "#fafafa",
   // },
   // {
   //   title: "Full stack Developer",
-  //   company_name: "Meta",
+  //   subtitle: "Meta",
   //   icon: meta,
   //   iconBg: "#E6DEDD",
   //   date: "Jan 2023 - Present",
@@ -200,19 +223,66 @@ const experiences = [
   // },
 ];
 
-const formacaoacad = [
+const extracurriculum = [
   {
-    title: "React.js Developer",
-    company_name: "Clever Systems LTDA",
-    icon: cleversys,
-    iconBg: "#FAFAFA",
-    date: "Jul 2021 - Mai 2022",
-    points: [
-      "Desenvolvimento e manutenção de web applicações usando React.js e outras tecnologias relacionadas.",
-      "Colaboração com um time incluindo designer, product manager e desenvolvedor banck-end na criação de soluções para midia indoor, totems de atendimento e sistema de chamadas.",
-      "Implementando design responsivo, usando biblioteca MaterialUI focando especialmente na orientação mobile first.",
-      "Aplicação de metologia ágil no fluxo de trabalho na empresa, usando tecnicas de Scrum e framework Click-Up.",
-    ],
+    title: "Conhecimentos Extracurriculares",
+    icon: courseico,
+    iconBg: "#fafafa",
+  },
+  {
+    title: "Nível de proeficiência em Inglês",
+    subtitle: "C2 Bilíngue",
+    icon: rocketseat,
+    iconBg: "#fafafa",
+    date: "Fev 2020",
+    link: "https://www.efset.org/cert/5EZprg",
+  },
+  {
+    title: "Evento NextLevelWeek#3",
+    subtitle: "Rocketseat",
+    icon: rocketseat,
+    iconBg: "#fafafa",
+    date: "Fev 2020",
+  },
+  {
+    title: "Evento NextLevelWeek#4",
+    subtitle: "Rocketseat",
+    icon: rocketseat,
+    iconBg: "#fafafa",
+    date: "Fev 2021",
+  },
+  {
+    title: "Javascript Completo ES6",
+    subtitle: "Origamid",
+    icon: origamid,
+    iconBg: "#fafafa",
+    date: "Set 2022",
+  },
+  {
+    title: "Atividades Extracurriculares",
+    icon: groupico,
+    iconBg: "#fafafa",
+  },
+  {
+    title: "Campuseiro em Campusparty 2017",
+    subtitle: "CPBSB",
+    icon: campusparty,
+    iconBg: "#fafafa",
+    date: "Fev 2020",
+  },
+  {
+    title: "Campuseiro em Campusparty 2018",
+    subtitle: "CPBSB2",
+    icon: campusparty,
+    iconBg: "#fafafa",
+    date: "Fev 2020",
+  },
+  {
+    title: "Vicepresidente da Associação Local ForçaJovem - 15 a 20",
+    subtitle: "Seicho-no-ie BSB DF",
+    icon: ajsisni,
+    iconBg: "#fafafa",
+    date: "Jul 2018 - Dez 2019",
   },
 ];
 
@@ -377,7 +447,7 @@ export {
   services,
   technologies,
   experiences,
-  formacaoacad,
+  extracurriculum,
   testimonials,
   projects,
 };

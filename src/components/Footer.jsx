@@ -11,7 +11,7 @@ import {
 
 export default function FooterWithSocialMediaIcons() {
   return (
-    <Footer container className='bg-transparent backdrop-blur-[5px] pt-0'>
+    <Footer container className='bg-transparent backdrop-blur-[2.5px] pt-0'>
       <div className='w-full px-11'>
         <hr className='mb-4 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-white to-transparent opacity-75 dark:opacity-100' />
         <div className='grid w-full mb-5 gap-4 justify-evenly items-center sm:flex sm:justify-between md:flex md:grid-cols-1 text-white'>

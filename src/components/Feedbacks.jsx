@@ -16,7 +16,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-[#03030370] border-2 border-[#168bf6] backdrop-blur-[2.5px] shadow-[0px_0px_20px_2px_rgba(22,138,246,0.25)] rounded-[20px] p-10 rounded-3xl xs:w-[320px] w-full'>
+    className='bg-[#03030370] border-2 border-[#168bf6] backdrop-blur-[2.5px] shadow-[0px_0px_20px_2px_rgba(22,138,246,0.25)] rounded-[20px] p-10 xs:w-[320px] w-full'>
     <p className={`${styles.sectionSubText} font-black text-[48px]`}>"</p>
 
     <div className='mt-1'>
