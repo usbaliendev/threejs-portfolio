@@ -10,7 +10,7 @@ const PreLoader = () => {
           animationData={greekloading}
           loop={true}
           autoPlay={true}
-          style={{ color: "#fafafa", height: "75px", width: "75px" }}
+          style={{ color: "#ffffff", height: "75px", width: "75px" }}
         />
         <span className='text-white mt-4'>Loading...</span>
       </div>

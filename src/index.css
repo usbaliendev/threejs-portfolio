@@ -95,9 +95,9 @@
 }
 
 .cards-gradient {
-  background: "#fafafa";
-  background: linear-gradient(90.13deg, #fafafa 0%, #168bf6 45%);
-  background: -webkit-linear-gradient(-90.13deg, #fafafa 0%, #168bf6 45%);
+  background: "#ffffff";
+  background: linear-gradient(90.13deg, #ffffff 0%, #168bf6 45%);
+  background: -webkit-linear-gradient(-90.13deg, #ffffff 0%, #168bf6 45%);
 }
 
 .orange-text-gradient {

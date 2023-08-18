@@ -34,10 +34,10 @@ const Experience = () => {
           background: "rgba(0,0,0,0.75)",
           backdropFilter: "blur(2.5px)",
         }}
-        contentArrowStyle={{ borderRight: "7px solid #fafafa" }}
+        contentArrowStyle={{ borderRight: "7px solid #ffffff" }}
         date={experience.date}
         dateClassName='text-white drop-shadow-[0_0_1px_#000]'
-        iconStyle={{ background: "#fafafa" }}
+        iconStyle={{ background: "#ffffff" }}
         icon={
           <div className='flex justify-center items-center w-full h-full'>
             <img
@@ -48,7 +48,7 @@ const Experience = () => {
           </div>
         }>
         <div>
-          <h3 className='animate-text bg-gradient-to-r from-[#067ad9] via-[#c2b774] to-[#52df71] bg-clip-text text-transparent text-[24px] font-bold'>
+          <h3 className='animate-twaterfall bg-gradient-to-b from-[#067ad9] to-[#52df71] bg-clip-text text-transparent text-[24px] font-bold'>
             {experience.title}
           </h3>
           <p
@@ -108,7 +108,7 @@ const Experience = () => {
                   />
                 </div>
               }
-              iconStyle={{ background: "#fafafa" }}
+              iconStyle={{ background: "#ffffff" }}
               shadowSize='small' // small, medium or large
             />
           )}

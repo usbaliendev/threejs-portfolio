@@ -37,7 +37,7 @@ const App = () => {
       ) : (
         <BrowserRouter>
           <div className='relative z-0 '>
-            <div className='bg-hero-pattern opacity-80 bg-cover bg-fixed bg-center'>
+            <div className='bg-hero-pattern opacity-80 bg-no-repeat bg-fixed'>
               <Navbar />
               <ScrollToTop />
               <Hero />

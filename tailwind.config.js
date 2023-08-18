@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#050505",
-        secondary: "#fafafa",
+        secondary: "#ffffff",
         tertiary: "#181818",
         accent: "#168bf6",
         "black-100": "#0D0D0D",
@@ -29,7 +29,7 @@ module.exports = {
       },
       animation: {
         text: "text 5s ease infinite",
-        twatterfall: "waterfall 5s ease infinite",
+        twaterfall: "waterfall 5s ease infinite",
         "waving-hand": "wave 2s linear infinite",
       },
       keyframes: {
