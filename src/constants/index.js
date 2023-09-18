@@ -350,43 +350,48 @@ const projects = [
     src_link: "",
     proj_link: "https://dribbble.com/shots/15713225-Icon-Study-2",
   },
-  // {
-  //   name: "Animated Mesh Lines",
-  //   desc: "Um conjunto de cinco demos com linhas WebGL animadas criadas com a biblioteca THREE.MeshLine. Descubra como animar e construir essas linhas para criar suas próprias animações",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image:
-  //     "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2018/12/preview3.gif?x13270",
-  //   src_link: "",
-  //   proj_link: "https://tympanus.net/Development/AnimatedMeshLines/",
-  // },
   {
-    name: "Scroling Porfolio",
-    desc: "Projeto de Three.js como background de uma página HTML clássica com rolagem mais envolvente com efeito paralaxe baseado na posição do cursor acione algumas animações ao chegar nas seções correspondentes.",
+    name: "NextJS Pages and Layout Study",
+    desc: "Um projeto de estudo de NextJS 13 no roteamento das pages, uso de layouts, skeletons para telas de loading mais interessantes e handling de erros e apicalls erradas.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "tmdb-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      "https://raw.githubusercontent.com/usbaliendev/nextjs-pages-layout-study/master/public/image.png",
+    src_link: "https://github.com/usbaliendev/nextjs-pages-layout-study",
+    proj_link:
+      "https://nextjs-pages-layout-study-fhlmpdlqu-usbaliendev.vercel.app/",
+  },
+  {
+    name: "Password generator",
+    desc: "Projeto de React de um gerador de senhas, usando script de shuffle e react hooks.",
     tags: [
       {
         name: "javasctript",
         color: "js-text-gradient",
       },
       {
-        name: "gsap",
-        color: "red-text-gradient",
+        name: "react.js",
+        color: "blue-text-gradient",
       },
       {
-        name: "threejs",
-        color: "grey-text-gradient",
+        name: "flowbite",
+        color: "blue-text-gradient",
       },
     ],
     image:
