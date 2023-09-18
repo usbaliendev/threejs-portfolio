@@ -316,7 +316,8 @@ const testimonials = [
 const projects = [
   {
     name: "Telegram Covi-19 Bot",
-    desc: "Um projeto pessoal de Bot de Telegram focado feito em 2021 focado em fornecer informações sobre COVID-19, desenvolvido utilizando JavaScript, para manter as pessoas atualizadas sobre a situação da pandemia. O bot oferece uma interface intuitiva e interativa para os usuários obterem dados sobre locais postos de vacinação, máscaras recomendadas, cuidados e profilaxia, taxas de vacinação e outras estatísticas relevantes. Seu design eficiente permitem que os usuários naveguem facilmente por informações cruciais na ponta dos dedos através desse bot de Telegram, fornecendo uma visão abrangente e confiável do cenário atual da COVID-19.",
+    desc: "Um projeto pessoal de Bot de Telegram focado feito em 2021 focado em fornecer informações sobre COVID-19, desenvolvido utilizando JavaScript, para manter as pessoas atualizadas sobre a situação da pandemia. ",
+    // desc: "Um projeto pessoal de Bot de Telegram focado feito em 2021 focado em fornecer informações sobre COVID-19, desenvolvido utilizando JavaScript, para manter as pessoas atualizadas sobre a situação da pandemia. O bot oferece uma interface intuitiva e interativa para os usuários obterem dados sobre locais postos de vacinação, máscaras recomendadas, cuidados e profilaxia, taxas de vacinação e outras estatísticas relevantes. Seu design eficiente permitem que os usuários naveguem facilmente por informações cruciais na ponta dos dedos através desse bot de Telegram, fornecendo uma visão abrangente e confiável do cenário atual da COVID-19.",
     tags: [
       {
         name: "javascript",
@@ -394,7 +395,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "",
+    image:
+      "https://raw.githubusercontent.com/usbaliendev/threejs-portfolio/main/src/assets/pswd-gen.png",
     src_link: "https://github.com/usbaliendev/password-generator",
     proj_link: "https://password-generator-rust-seven.vercel.app/",
   },
