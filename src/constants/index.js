@@ -394,11 +394,9 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image:
-      "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2022/01/ScrollbasedGSAP.jpg?x13270",
-    src_link: "",
-    proj_link:
-      "https://threejs-journey.com/resources/codrops/threejs-scroll-based-animation/",
+    image: "",
+    src_link: "https://github.com/usbaliendev/password-generator",
+    proj_link: "https://password-generator-rust-seven.vercel.app/",
   },
   // {
   //   name: "Pokemon Card, Holo Effect",
