@@ -334,22 +334,30 @@ const projects = [
     proj_link: "https://telegram.me/CovidDFBot",
   },
   {
-    name: "Kayden7 Channel Branding Design",
-    desc: "Identidade visual e branding do canal de Youtube e Twitch",
+    name: "My FullStack Library",
+    desc: "Projeto nextjsc de uma biblioteca pessoal para eu guardar todos os conhecimentos de cursos, codigos e tools que venho acumulando com o tempo.",
     tags: [
       {
-        name: "figma",
-        color: "figma-text-gradient",
+        name: "javasctript",
+        color: "js-text-gradient",
       },
       {
-        name: "dribble",
-        color: "pink-text-gradient",
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextra",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "grey-text-gradient",
       },
     ],
     image:
-      "https://user-images.githubusercontent.com/50382278/151048953-b32bbf27-36f0-462c-a7e0-8445591149d0.png",
-    src_link: "",
-    proj_link: "https://dribbble.com/shots/15713225-Icon-Study-2",
+      "https://raw.githubusercontent.com/usbaliendev/usbaliendev-nextra-doc/main/public/assets/Screenshot_1.png",
+    src_link: "https://github.com/usbaliendev/usbaliendev-nextra-doc",
+    proj_link: "https://usbaliendev-doc.vercel.app/",
   },
   {
     name: "NextJS Pages and Layout Study",
@@ -401,30 +409,22 @@ const projects = [
     proj_link: "https://password-generator-rust-seven.vercel.app/",
   },
   {
-    name: "My FullStack Library",
-    desc: "Projeto nextjsc de uma biblioteca pessoal para eu guardar todos os conhecimentos de cursos, codigos e tools que venho acumulando com o tempo.",
+    name: "Kayden7 Channel Branding Design",
+    desc: "Identidade visual e branding do canal de Youtube e Twitch",
     tags: [
       {
-        name: "javasctript",
-        color: "js-text-gradient",
+        name: "figma",
+        color: "figma-text-gradient",
       },
       {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nextra",
-        color: "grey-text-gradient",
-      },
-      {
-        name: "vercel",
-        color: "grey-text-gradient",
+        name: "dribble",
+        color: "pink-text-gradient",
       },
     ],
     image:
-      "https://raw.githubusercontent.com/usbaliendev/usbaliendev-nextra-doc/main/public/assets/Screenshot_1.png",
-    src_link: "https://github.com/usbaliendev/usbaliendev-nextra-doc",
-    proj_link: "https://usbaliendev-doc.vercel.app/",
+      "https://user-images.githubusercontent.com/50382278/151048953-b32bbf27-36f0-462c-a7e0-8445591149d0.png",
+    src_link: "",
+    proj_link: "https://dribbble.com/shots/15713225-Icon-Study-2",
   },
   // {
   //   name: "Pokemon Card, Holo Effect",
