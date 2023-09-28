@@ -338,16 +338,16 @@ const projects = [
     desc: "Projeto nextjsc de uma biblioteca pessoal para eu guardar todos os conhecimentos de cursos, codigos e tools que venho acumulando com o tempo.",
     tags: [
       {
-        name: "javasctript",
+        name: "javascript",
         color: "js-text-gradient",
       },
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "grey-text-gradient",
       },
       {
         name: "nextra",
-        color: "grey-text-gradient",
+        color: "white",
       },
       {
         name: "vercel",
