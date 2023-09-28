@@ -347,11 +347,11 @@ const projects = [
       },
       {
         name: "nextra",
-        color: "white",
+        color: "blue-text-gradient",
       },
       {
         name: "vercel",
-        color: "grey-text-gradient",
+        color: "white ",
       },
     ],
     image:
