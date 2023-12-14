@@ -334,8 +334,30 @@ const projects = [
     proj_link: "https://telegram.me/CovidDFBot",
   },
   {
+    name: "Anime Vault",
+    desc: "Projeto NextJS de uma catalago/cofre de animes e futuramente manhwas, atuais assim como suas informações e no futuro uma conta pessoal e add na sua lista pessoal de assistidos, e lista para assistir para manter um track das minhas obras assistidas assim como as obras que tenho interesse. Com a parte de perfis e listas vc poderá invejar seus amigos como um verdadeiro otaku com uma lista infindavel de animes já zerados.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "white ",
+      },
+    ],
+    image:
+      "https://raw.githubusercontent.com/usbaliendev/animevault/main/public/project.png",
+    src_link: "https://github.com/usbaliendev/animevault/tree/main",
+    proj_link: "https://animevaultk7.vercel.app/",
+  },
+  {
     name: "My FullStack Library",
-    desc: "Projeto nextjsc de uma biblioteca pessoal para eu guardar todos os conhecimentos de cursos, codigos e tools que venho acumulando com o tempo.",
+    desc: "Projeto NextJS de uma biblioteca/documentação pessoal para eu guardar todos os conhecimentos de cursos, codigos e tools que venho acumulando com o tempo.",
     tags: [
       {
         name: "javascript",
